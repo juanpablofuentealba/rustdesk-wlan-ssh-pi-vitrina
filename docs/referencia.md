@@ -285,7 +285,7 @@ CLIP_VM=USUARIO@10.0.0.5 ./clip-vm.sh get   # o export CLIP_VM (config de fish)
 ```
 
 Requiere `wl-clipboard` en host y guest, y clave SSH autorizada (`BatchMode`).
-Por defecto apunta a `jp@192.168.122.x` (red NAT de libvirt).
+Por defecto apunta a `USUARIO@192.168.122.x` (red NAT de libvirt).
 
 > **Nota:** en Wayland el `spice-vdagent` de Fedora solo propaga **host→guest**
 > (es una build X11 y no ve los cambios del compositor Wayland). Para

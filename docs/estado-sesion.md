@@ -355,7 +355,7 @@ ssh USUARIO@192.168.122.x 'loginctl show-session (loginctl list-sessions --no-le
 ssh USUARIO@192.168.122.x 'bash -s -- --check' < setup-remote-target.sh
 
 # inventario del guest
-./inventory.sh jp@192.168.122.x
+./inventory.sh USUARIO@192.168.122.x
 ```
 
 ### Probar el portapapeles
@@ -435,7 +435,7 @@ Evidencia:
 $ tailscale ping -c 3 100.x.y.z
 pong from fedora (100.x.y.z) via 192.168.122.x:41641 in 1ms
 
-$ ssh -o BatchMode=yes jp@100.x.y.z 'hostname'
+$ ssh -o BatchMode=yes USUARIO@100.x.y.z 'hostname'
 fedora
 
 $ getent hosts fedora

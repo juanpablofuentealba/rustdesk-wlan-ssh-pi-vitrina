@@ -107,10 +107,10 @@ requiere WoWLAN, mucho menos soportado.
 ## Apagar y reiniciar remoto (sin exponer la contraseña)
 
 ```bash
-./energia-remota.sh apagar    jp@host            # pide confirmación
-./energia-remota.sh reiniciar jp@host
-./energia-remota.sh apagar    jp@host --delay 10 # en 10 minutos
-./energia-remota.sh cancelar  jp@host
+./energia-remota.sh apagar    USUARIO@host            # pide confirmación
+./energia-remota.sh reiniciar USUARIO@host
+./energia-remota.sh apagar    USUARIO@host --delay 10 # en 10 minutos
+./energia-remota.sh cancelar  USUARIO@host
 ```
 
 ### Seguridad de la contraseña sudo
