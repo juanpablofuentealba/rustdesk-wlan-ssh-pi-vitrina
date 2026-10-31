@@ -1,0 +1,7 @@
+# Secretos (por si acaso)
+*.key
+*.pem
+id_*
+tskey-auth-*
+secretos/
+fichas/
